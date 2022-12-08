@@ -42,25 +42,8 @@ nav{
     margin: 20px;
 }
 .nav-links .fa{
-    color: #000000;
+    color: white;
     cursor: pointer;
-}
-.rondje{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 50%;
-    left: -10%;
-    transform: translateY(-50%);
-}
-#circle{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    background: linear-gradient(to left, #9c27b0, #8ecdff);
 }
 
 .button{
@@ -115,6 +98,18 @@ nav{
     left: 80%;
 }
 
-#youtube_logo img{
-    fill: black;
+header{
+    background-color: aqua;
+}
+
+#box{
+    background-color: navy;
+    padding: 10px;
+    width: 100%;
+    height: 127px;
+}
+#box1{
+    background-color: navy;
+    padding: 650px;
+    position: absolute; left: 1270px; top: 147px;
 }
