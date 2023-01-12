@@ -1,0 +1,68 @@
+/* boxes */
+html, body {
+    margin: 0;
+    padding: 0;
+}  
+
+#h1{
+    color: white;
+}
+#topbar{
+    background-color: navy;
+    padding: 10px;
+    width: 1920;
+    height: 127px;
+    display:flex;
+    justify-content: space-between;
+}
+#sidebar {
+    height: 953px;
+    background-color: navy;
+    width: 650px;
+}
+
+#Logo img{
+    width: 150px;
+}
+
+.nav-links{
+    text-align: right;
+}
+
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+/* socials looks */
+.nav-links .fa{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 135px;
+    margin: 20px;
+}
+
+#scrollbar {
+    height: 953px;
+    width: 1270px;
+    top: 127px;
+    background-image: url('Kaulo plaatje.jpg');
+    background-repeat: no-repeat;
+    background-size: 1270px;
+}
+
+#mainsection{
+    width: 1920;
+    height: 127px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#sidebar img{
+    width: 480px;
+    height: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
